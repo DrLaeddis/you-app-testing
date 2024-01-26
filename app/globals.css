@@ -31,3 +31,98 @@ body {
     text-wrap: balance;
   }
 }
+
+.main-color {
+  background: radial-gradient(124.23% 171.99% at 100% -3.39%, #1F4247 0%, #0D1D23 56.18%, #09141A 100%);
+}
+
+.custom-bg {
+background: rgba(255, 255, 255, 0.06);
+}
+
+.custom-color-reg {
+  background: var(--Golden, linear-gradient(74deg, #94783E -6.8%, #F3EDA6 16.76%, #F8FAE5 30.5%, #FFE2BE 49.6%, #D5BE88 78.56%, #F8FAE5 89.01%, #D5BE88 100.43%));
+}
+
+.custom-text {
+  background: var(--Golden, linear-gradient(74deg, #94783E -6.8%, #F3EDA6 16.76%, #F8FAE5 30.5%, #FFE2BE 49.6%, #D5BE88 78.56%, #F8FAE5 89.01%, #D5BE88 100.43%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* font-family: Inter; */
+/* font-size: 13px; */
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+/* text-decoration-line: underline; */
+}
+
+.custom-text-about {
+  background: var(--Golden, linear-gradient(74deg, #94783E -6.8%, #F3EDA6 16.76%, #F8FAE5 30.5%, #FFE2BE 49.6%, #D5BE88 78.56%, #F8FAE5 89.01%, #D5BE88 100.43%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* font-family: Inter; */
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+/* text-decoration-line: underline; */
+}
+
+.custom-color-init {
+  color: rgba(255, 255, 255, 0.52);
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.custom-about-font {
+  color: rgba(255, 255, 255, 0.33);
+/* font-family: Inter; */
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.custom-input-about {
+  border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.22);
+background: rgba(217, 217, 217, 0.06);
+}
+
+.custom-field-about {
+  border-radius: 100px;
+  /* background: rgba(255, 255, 255, 0.6); */
+  background: rgba(26,29,28, 0.6);
+  backdrop-filter: blur(25px);
+  padding: 10px;
+}
+
+.custom-interest {
+background: radial-gradient(124.23% 171.99% at 100% -3.39%, #1F4247 0%, #0D1D23 56.18%, #09141A 100%);
+}
+
+.custom-save {
+  background: var(--Dark-mode-Gradient-Blue, linear-gradient(135deg, #ABFFFD 2.64%, #4599DB 102.4%, #AADAFF 102.4%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.custom-intro {
+  background: var(--Golden-2, linear-gradient(74deg, #94783E -6.8%, #F3EDA6 16.76%, #F8FAE5 30.5%, #FFE2BE 49.6%, #D5BE88 78.56%, #F8FAE5 89.01%, #D5BE88 100.43%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.custom-input-interest-list {
+  border-radius: 10px;
+background: rgba(217, 217, 217, 0.06);
+}
+
+.input-login {}
